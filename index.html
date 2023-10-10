@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+    <meta name="author" content="Elias Joaquin Prieto">
+    <meta name="description" content=" Portafolio de Elias">
+    <meta name="keywords" content="HTML, CSS, Boostrap">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!---CSS--->
+    <link href="CSS/tatoo.css" rel="stylesheet">
+       <!-----script------->
+       <script src="Java/scrollreveal.js""></script>
+    <!---Titulo---->
+    <title>Tatoos</title>
+    <!---Favicon--->
+    <link rel="icon" type="image/x-icon" href="Video y fotos/maquina-de-tatuaje.png">
+    <!---Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+  <!------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+
+<!---seccion principal--->
+<section class="container seccion-hero">
+
+  <video autoplay muted loop id="video-fondo">
+    <source src="Video y fotos/2.mp4" type="video/mp4">
+    Tu navegador no soporta el formato de video.
+  </video>
+</section>
+
+
+  <!---Barra de navegacion-->
+  <nav id="Barra" class="navbar navbar-expand-md navbar-light seccion-titulo-b fixed-top navbar-transparente">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="index.html">
+          <img class="login" src="Video y fotos/100x1000.png" width="100" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi"> <p class="p">Sobrer mi</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Pro" href="Galeria.html"> <p class="p">Galeria</p> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Tes" href="#testimonios"> <p class="p">Testimonios</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Con" href="#contacto"> <p class="p">Contacto</p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-----Logito------>
+<div  class="container contenedor-del-logito">
+ <div id="miElemento" class="logito logito-oculto img-fluid d-flex">
+  <img  id="L" width="600px" src="Video y fotos/100x1000.png" alt="logo-del-medio">
+</div>
+</div>    
+
+
+
+
+<!-----Parte negra------>
+<section id="sobre-mi" class="sobre-mi seccion-oscura d-block">
+  <div class="contenedor">
+    <h2 class="seccion-titulo">ESTUDIO DE TATUJES</h2>
+    <div class="image-container linea-dorada">
+      <img src="Video y fotos/linea-dorada.png" alt="linea-divisoria">
+    </div>
+    <p class="seccion-texto">LA GOTA NEGRA TATTOO es un concepto revolucionario nunca antes visto en Córdoba. Se trata de la unión de 6 profesionales al servicio de los clientes más exigentes en el mundo de los tatuajes en cuanto a acabado, precio, tiempo de espera, reservas, dedicación y seguimiento del diseño. Daniel Sánchez, Lucas, Juanka, Teser, Otes y Alicia forman la familia de LA GOTA. Ellos son los encargados de que, sea cual sea tu idea para llevarla a tinta, se haga realidad.</p>
+  </div>
+</section>
+
+<!----cuadros----->
+<section class="experiencia seccion-clara">
+  <div class="container text-center">
+  <div class="row">
+
+<!---ELIGUE UN DISEÑO---->
+<div class="columna col-12 col-md-4 animacion-cuadro js-scroll">
+  <i class="bi bi-brush"></i>
+<p class="experiencia-titulo">ELIGUE UN DISEÑO</p>
+<p>¿Estás buscando un tatuaje único y original? En nuestra página encontrarás una gran variedad de diseños para todos los gustos y estilos. Puedes elegir un diseño de nuestra galería o traer tu propia idea y nosotros la plasmaremos en tu piel</p>
+<div class="badges-contenedor">
+  <span class="badge text-bg-dark">Realista</span>
+  <span class="badge text-bg-dark">Toon</span>
+  <span class="badge text-bg-dark">Animales</span>
+  <span class="badge text-bg-dark">Minimalista</span>
+</div>
+</div>
+<!--RESERVA TU CITA---->
+  <div class="columna col-12 col-md-4 animacion-cuadro js-scroll">
+    <i class="bi bi-bookmark-fill"></i>
+    <p class="experiencia-titulo">RESERVA TU CITA</p>
+    <p>No tendrás que esperar meses y meses como en otros sitios. Dependiendo del diseño que te quieras hacer, podemos darte cita ¡incluso en el mismo día!</p>
+    <div class="badges-contenedor">
+      <span class="badge text-bg-dark">Rapido</span>
+      <span class="badge text-bg-dark">Sencillo</span>
+    </div>
+  </div>
+<!---TATÚATE---->
+  <div class="columna col-12 col-md-4 animacion-cuadro js-scroll">
+    <i class="bi bi-check-lg"></i>
+    <p class="experiencia-titulo">TATÚATE</p>
+    <p>Somos transparentes desde el primer contacto para que puedas decidir con tranquilidad y con confianza máxima. ¡Ven a vernos cuando quieras! 6 es el número mágico.</p>
+    <div class="badges-contenedor">
+      <span class="badge text-bg-dark"></span>
+      <span class="badge text-bg-dark">Amabilidad</span>
+      <span class="badge text-bg-dark">Confianza</span>
+      <span class="badge text-bg-dark">Reconocimiento</span>
+    </div>
+  </div>
+</div>
+</div> 
+</section>
+
+<!------Testimonios-------->
+<div id="carouselExampleIndicators" class="carousel slide seccion-oscura-1">
+  <div id="testimonios" class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active text-center">
+      <img id="comillas-1" src="Video y fotos/comillas.png">
+      <p class="pp">Equipo muy amable y sobre todo profesional. Sus trabajos y premios los avalan. Si vuelvo a tatuarme sin duda será allí de nuevo.</p>
+      <p><i>-Fulano Perez</i></p>
+    </div>
+    <div class="carousel-item text-center">
+      <img id="comillas-2" src="Video y fotos/comillas.png">
+      <p class="pp">Me encanto fue justamente que lo que esperaba de un estudio de tatuajes</p>
+      <p><i>-Agustin Hernandez</i></p>
+    </div>
+    <div class="carousel-item text-center">
+      <img id="comillas-3" src="Video y fotos/comillas.png">
+      <p class="pp">Volveria a ir sin dudas, el espacio es muy limpio y ordenado sin mencionar el buen trato.</p>
+      <p><i>-Felipe Prieto</i></p>
+    </div>
+  </div>
+</div>
+
+<!-------Pie de pagina---------->
+<footer id="contacto" class="seccion-clara-1 d-flex flex-column align-items-center justify-content-center"> 
+  
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://twitter.com/EliasPr25192204" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/elias-prieto-51b679239/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/eluprieto/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:eliasjoaquinprieto@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por Elias J. Prieto (2023) &#169;</div>
+</footer>
+
+
+<script src="Java/tatoo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
