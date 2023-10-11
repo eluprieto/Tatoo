@@ -35,7 +35,7 @@ html {
 }
 
 p {
-  font-family: 'Cinzel', serif;
+ font-family: 'Cinzel', serif;
 }
 
 * {
@@ -75,7 +75,7 @@ h3{
 
 .seccion-oscura-1 {
   color: white;
-  background-image: url("https://img.freepik.com/foto-gratis/textura-pared-ladrillo_1194-6421.jpg?w=996&t=st=1696968240~exp=1696968840~hmac=8ffa9f0481f04b179457e2b51b615564bd77293a0c58271938152dcbefe9029b");
+  background-image: url("../Video y fotos/textura-pared-ladrillo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
