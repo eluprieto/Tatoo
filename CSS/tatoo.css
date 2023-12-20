@@ -203,7 +203,7 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(249, 250, 241);
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
@@ -212,12 +212,25 @@ footer {
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
-.iconos-redes-sociales a:hover {
-  background-color: #E6B75D;
-  border: 2px solid rgb(0, 0, 0);
+#TW:hover{
+  background-color: #00acee;
+  border: 2px solid rgb(249, 250, 241);
 }
+#LK:hover{
+  background-color: #0072b1;  
+  border: 2px solid rgb(249, 250, 241);
+}
+#IG:hover{
+  background-color: #d62976;
+  border: 2px solid rgb(249, 250, 241);
+}
+#ML:hover{
+  background-color: #c53831;
+  border: 2px solid rgb(249, 250, 241);
+}
+
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: rgb(249, 250, 241);
 }
 .derechos-de-autor {
   font-size: 15px;
